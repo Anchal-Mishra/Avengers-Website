@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Page</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        }
+        body{
+        font-family: cursive;
+        background-color: black;
+        }
+        a:link{
+        color: #fff;
+        }
+        a:visited{
+        color: #fff;
+        }
+        a:hover{
+        color:red;
+        text-decoration:underline; 
+        }
+        a:active{
+        color: #fff;
+        }
+        .btn{
+        border-radius: 10px;
+        background-color: red;
+        color: #fff;
+        font-weight: bold; 
+        }
+        .btn:hover{
+        color: red;
+        background-color: transparent;
+        border: 2px solid red; 
+        }
+        .team{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 100px 500px;
+            margin: 5%;
+        }
+        .team-heading{
+            grid-row: 1;
+            grid-column: 1/4;
+            /* border: 2px solid black; */
+            font-size: 35px;
+            font-weight: bold;
+            color: red;
+            text-align: center;
+            padding: 20px;
+        }
+        .box1{
+            /* border: 2px solid blueviolet; */
+            background: url("./images/team-img1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .box2{
+            background: url("./images/team-img2jpg.jpg");
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .box3{
+            background: url("./images/team-img4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="team">
+            <div class="team-heading">Our Team</div>
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+    </section>
+</body>
+</html>

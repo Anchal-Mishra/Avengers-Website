@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: cursive;
+    background-color: black;
+}
+a:link{
+    color: #fff;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+a:active{
+    color: #fff;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+}
+.btn:hover{
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+}
+/* .container-1 , .container-2 , .container-3{
+    margin: 5%;
+} */
+/* ----------------------------------------------------HOME PAGE----------------------------------------------------------  */
+.header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("./images/header-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: orangered; */
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    color: red;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.nav-items li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-content{
+    color: #fff;
+    text-align: center;
+}
+.home-content h2{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.home-content p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: 0.5fr 3fr;
+    width: 100%;
+    height: 90vh;
+}
+.about-heading{
+    grid-row: 1;
+    grid-column: 1/3;
+    border: 2px solid black;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+.about-img{
+    background: url("./images/about-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-content{
+    padding: 10%;
+    text-align: center;
+    background-color: #fff;
+}
+.about-content h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.about-content p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: 100px 500px;
+    width: 100%;
+    height: 85vh;
+    }
+    .contact-heading{
+    grid-row: 1;
+    grid-column: 1/3;
+    border: 2px solid black;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    }
+    .contact-img{
+    background: url("./images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .contact-content{
+    padding: 10%;
+    text-align: center;
+    }
+    .contact-content input , .contact-content textarea{
+    padding: 10px;
+    width: 100%;
+    margin: 20px;
+    }
+    .contact-content input{
+    border-radius: 10px;
+    }
+    .contact-content .btn{
+    width: 30%;
+    padding: 15px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 500px;
+        margin: 5%;
+    }
+    .team-heading{
+        grid-row: 1;
+        grid-column: 1/4;
+        /* border: 2px solid black; */
+        font-size: 35px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        padding: 20px;
+    }
+    .box1{
+        /* border: 2px solid blueviolet; */
+        background: url("./images/team-img1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box2{
+        background: url("./images/team-img2jpg.jpg");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box3{
+        background: url("./images/team-img4.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+/* ----------------------------------------------------FOOTER----------------------------------------------------  */
+/* .footer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer .box{
+    border: 2px solid black;
+    width: 100%;
+    flex-direction: column;
+    width: 25%;
+    flex-wrap: wrap;
+} */
