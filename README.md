@@ -44,7 +44,7 @@ Edit
 
 1. **Clone or Download** this repository:
    ```bash
-   git clone https://github.com/your-username/avengers-website.git
+   git clone https://github.com/Anchal-Mishra/Avengers-Website.git
 Open index.html in your browser.
 
 Add or replace images in the /images folder.
